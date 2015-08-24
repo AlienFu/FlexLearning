@@ -10,9 +10,11 @@
 	paddingLeft:20;
 	paddingRight:20;
 }
+
 .handle Label {
 	top: 5
 }
+
 .age {
 	left:100;
 	top: 18;

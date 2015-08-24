@@ -5,6 +5,7 @@
 	<s:layout>
 		<s:HorizontalLayout/>
 	</s:layout>
+	
 	<fx:Script>
 		<![CDATA[
 			import mx.collections.ArrayCollection;		
