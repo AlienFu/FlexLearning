@@ -1,0 +1,21 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+.handle {
+	left:95;
+	backgroundColor: #666666;
+	color: #eeeeee;
+	font-size:16;
+	paddingLeft:20;
+	paddingRight:20;
+}
+.handle Label {
+	top: 5
+}
+.age {
+	left:100;
+	top: 18;
+	color: #666666;
+}
+

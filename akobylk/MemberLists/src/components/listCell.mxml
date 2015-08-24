@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx" width="100%" height="100%">
+	<s:layout>
+		<s:HorizontalLayout/>
+	</s:layout>
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;		
+			[Bindable]
+			public var members:ArrayCollection;
+		]]>
+	</fx:Script>
+	
+	<s:List dataProvider="{members}" width="100%" height="100%">
+		<s:itemRenderer>
+			<fx:Component>
+				<s:ItemRenderer>
+					<s:Image source="{data.img}"/>
+					<s:Label text="{data.handle}" styleName="handle"/>
+					<s:Label text="{data.age}" styleName="age"/>
+				</s:ItemRenderer>
+			</fx:Component>
+		</s:itemRenderer>
+	</s:List>
+</s:Group>
